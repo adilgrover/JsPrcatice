@@ -60,3 +60,6 @@ function sameUsingFrequencyCounterPattern(arr1, arr2) {
 console.log(sameUsingFrequencyCounterPattern([1,2,3],[1,4,9]));
 
 
+// so basically we break down two arrays in objects and then compare those objects 
+
+
