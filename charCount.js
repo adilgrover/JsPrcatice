@@ -22,3 +22,13 @@ function charCount (str){
 }
 
 console.log(charCount ("hellol"));
+
+// reverse a string 
+
+function reverse(str){
+
+ return   str.spilt("").reverse().join("")
+
+}
+
+console.log("rev",reverse("adil"))
