@@ -13,15 +13,14 @@
 
 
 class ListNode {
-    constructor(val = 0, next = null) {
-      this.val = val;
-      this.next = next;
-    }
+  constructor(val = 0, next = null) {
+    this.val = val;
+    this.next = next;
   }
+}
 const head = new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1))));
 
-
-console.log("test",head);
+console.log("test", head);
 
 
 
